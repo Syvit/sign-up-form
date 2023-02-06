@@ -64,9 +64,9 @@ body{
 	font-weight: 300;
 	color: var(--main-txt);
 	position: absolute;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	font-family: 'Josefin Sans', sans-serif;
-	left: 9vw;
+	left: 11vw;
 	top: 95vh;
 }
 
@@ -122,9 +122,10 @@ main>h2{
 
 main>h3{
 	top: 16vh;
-	left: 58.3vw;
+	left: 57.7vw;
 	font-size: 1.5em;
 	font-weight: 300;
+	color: var(--main-txt);
 }
 
 .sign-up{
