@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="splash-screen">
+        <h3 id="credit">Image by <a href="https://unsplash.com/@a2eorigins">Alex Perez</a> on <a href="https://unsplash.com/photos/ioJBsYQ-pPM">Unsplash</a></h3>
+        <h1>SYVIT</h1>
+        <img id="splash-logo" src="images/Profile Picture Inverted.png" alt="splash logo">
+        <img id="splash-bg" src="images/splash-screen-two.jpg" alt="splash screen">
+    </header>
+    <main>
+        <h2>PREPARE</h2>
+        <h3>FOR WHATEVER THIS IS</h3>
+        <fieldset class="sign-up">
+            <legend>SIGN UP</legend>
+            <div class="input-box">
+                <label for="first-name">FIRST NAME</label>
+                <input id="first-name" type="text" maxlength="25" required>
+            </div>
+            <div class="input-box">
+                <label for="last-name">LAST NAME</label>
+                <input id="last-name" type="text" maxlength="25" required>
+            </div>
+            <div class="input-box">
+                <label for="user-email">EMAIL</label>
+                <input id="user-email" type="email" required>
+            </div>
+            <div class="input-box">
+                <label for="user-phone-number">PHONE NUMBER</label>
+                <input id="user-phone-number" type="tel">
+            </div>
+            <div class="input-box">
+                <label for="user-password">PASSWORD</label>
+                <input id="user-password" type="password" maxlength="25" required>
+            </div>
+            <div class="input-box">
+                <label for="user-password">CONFIRM PASSWORD</label>
+                <input id="user-password" type="password" maxlength="25" required>
+            </div>
+        </fieldset>
+        <button id="submit" type="submit">CREATE ACCOUNT</button>
+        <p id="login-prompt">Already have an account? <a href="">Log in</a></p>
+    </main>
+</body>
+</html>
