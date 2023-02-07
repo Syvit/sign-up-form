@@ -122,8 +122,8 @@ main>h2{
 
 main>h3{
 	top: 16vh;
-	left: 57.7vw;
-	font-size: 1.5em;
+	left: 57.3vw;
+	font-size: 1.56em;
 	font-weight: 300;
 	color: var(--main-txt);
 }
@@ -157,6 +157,8 @@ main>h3{
 	background-color: var(--input-bg);
 	color: var(--main-txt);
 	font-family: 'Lato', sans-serif;
+	font-size: 0.7rem;
+	text-align: center;
 }
 
 .sign-up>legend{
@@ -204,4 +206,9 @@ fieldset>div>label{
 	color: var(--highlight);
 	text-decoration: none;
 	font-weight: 700;
+}
+
+input:focus{
+	outline: 0.05rem solid var(--highlight);
+	scale: 1.05;
 }
